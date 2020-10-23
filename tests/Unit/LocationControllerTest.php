@@ -7,11 +7,21 @@ use PHPUnit\Framework\TestCase;
 class LocationControllerTest extends TestCase
 {
     /**
-     * A basic unit test example.
+     * A basic unit test example for Location
      *
      * @return void
      */
-    public function testExample()
+    public function sameSideOfStreetTest()
+    {
+        $this->assertTrue(true);
+    }
+
+    /**
+     * A basic unit test example for Location
+     *
+     * @return void
+     */
+    public function distanceBetweenLocationsTest()
     {
         $this->assertTrue(true);
     }
